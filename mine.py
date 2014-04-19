@@ -74,7 +74,7 @@ def mine():
                 # Success if no more blanks
                 printMat(mat)
                 return
-            if blanks == 1 and minSize >= 3 and placed >= 3:
+            if blanks == 1 and placed >= 3:
                 # Danger of failing uselessly here
                 # Last blank should have actually been a mine
                 placer(blankSize[rc]-1, blankSize[other]-1, fill='*')
