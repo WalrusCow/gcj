@@ -13,4 +13,3 @@ def main(n):
 if __name__ == '__main__':
     n = int(sys.stdin.readline())
     main(n)
-
